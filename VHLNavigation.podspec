@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.3'
     s.public_header_files = 'VHLNavigation/VHLNavigation/VHLNavigation.h'
     s.source_files = 'VHLNavigation/VHLNavigation/*.{h,m}'
-    s.prefix_header_contents = '#import VHLNavigation.h'
+    s.prefix_header_contents = '#import "VHLNavigation.h"'
     s.requires_arc = true
 end
